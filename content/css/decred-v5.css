@@ -1758,6 +1758,18 @@ body {
   background-image: url('../images/icon-nav-medium.svg');
 }
 
+.nav-social-link.nav-linkedin {
+  background-image: url('../images/icon-nav-linkedin.svg');
+}
+
+.nav-social-link.nav-email {
+  background-image: url('../images/icon-nav-email.svg');
+}
+
+.nav-social-link.nav-medium {
+  background-image: url('../images/icon-nav-medium.svg');
+}
+
 .nav-dcr-dev-link {
   display: block;
   margin-top: 5px;
