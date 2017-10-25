@@ -1003,6 +1003,10 @@ body {
   background-image: url('../images/iconIrc.svg');
 }
 
+.medium {
+  background-image: url('../images/iconMedium.svg');
+}
+
 .footerblockindicator {
   display: inline-block;
   margin-top: 9px;
