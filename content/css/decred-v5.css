@@ -2561,6 +2561,25 @@ body {
   font-weight: 600;
 }
 
+.quotes-by a:link {
+  color: #0C1E3E  ;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 600;
+}
+.quotes-by a:visited {
+  color: #0C1E3E  ;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 600;
+}
+.quotes-by a:hover {
+  color: #0C1E3E  ;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 600;
+}
+
 .quotes-by-title {
   font-weight: 400;
 }
