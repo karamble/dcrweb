@@ -3574,6 +3574,19 @@ body {
   cursor: pointer;
 }
 
+.mobile-play-button a:link {
+  color: #f9fbfc  ;
+  text-decoration: none;
+}
+.mobile-play-button a:visited {
+  color: #f9fbfc  ;
+  text-decoration: none;
+}
+.mobile-play-button a:hover{
+color: #f9fbfc  ;
+text-decoration: none;
+}
+
 .mobile-play-button:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .21);
 }
