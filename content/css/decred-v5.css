@@ -4287,6 +4287,9 @@ text-decoration: none;
   .button.all-downloads {
     display: none;
   }
+  .alldl {
+    display: none;
+  }
   .link-section {
     overflow: auto;
     width: 100%;
