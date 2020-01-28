@@ -90,7 +90,7 @@ $(document).ready(function () {
 		// first view
 		logo = $('.logo'),
 		slogan = $('.slogan'),
-		playButton = $('.play-button'),
+		playButton = $('.play-modal'),
 		mobilePlayButton = $('.mobile-play-button'),
 		bgIllustration = $('.bg-illustration'),
 		bgIllustrationGhost = $('.bg-illustration-ghost'),
