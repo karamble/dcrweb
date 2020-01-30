@@ -133,6 +133,8 @@
   "home_principles_inclusivity": "Inclusivity represents a multi-stakeholder system and an active effort shall be maintained to include a diverse set of views and users.",
   "home_principles_bound": "We’re bound by the following guiding principles.",
   "home_principles_equitable": "These principles have been established in an effort to create an equitable and sustainable framework within which to achieve Decred's goal to be an autonomous and decentralized currency where all stakeholders have a real voice.",
+  "home_principles_supply": "Issuance is finite and the total issuance shall not exceed 20,999,999.99800912 DCR",
+  "home_principles_fungibility": "Universal fungibility is fundamental to Decred being a store of value and attacks against it shall be actively monitored and countermeasures pursued as necessary.",
   "home_guide_0": "This tour will help you get started with Decred",
   "home_guide_1": "Overview",
   "home_guide_2": "Decred is a multi-platform digital currency with support for Windows, macOS, and Linux. Easy-to-use wallet apps enable sending, receiving, and mining Decred with just a few clicks.",
