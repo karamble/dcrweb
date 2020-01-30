@@ -1,15 +1,3 @@
-{{ define "fronta"  }}
-<div class="fronta subpage video-header">
-    <video autoplay loop muted poster="/videos/headers/adaptability/fallback.jpg">
-    </video>
-    <div class="_960 subpage-header"><a href="{{ .Site.BaseURL }}" class="subpage-logo w-inline-block"></a></div>
-    <div class="_960 subpage-header">
-        <div class="subpage-title">{{ T "subpage_nav_adaptable" }}</div>
-    </div>
-</div>
-{{ end }}
-
-
 {{ define "main" }}
 
     <div class="full-width">
@@ -53,9 +41,7 @@
                         <div class="col-6 justify-content-end">
                             <div class="subpage-description" translate>
                                 <p class="text-block-7">{{ T "adaptability_02_headline" }}</p>
-                                <p>{{ T "adaptability_02_textp1" }}</p>
-
-                                <p>{{ T "adaptability_02_textp2" }}</p>
+                                {{ T "adaptability_02_text" | safeHTML }}
                             </div>
                         </div>
                     </div>
@@ -76,8 +62,16 @@
                         </div>
                     </div>
                 </div>
-                  
-                {{ partial "subpage-footerblocks.html" . }}
+                <div class="subpage-content">
+                    <div id="get-into" class="panelSection" style="width: 100%;">
+                        <p class="text-block-7">{{ T "footerblocks_headline" }}</p>
+                        <div class="row"> 
+                    {{ partial "subpage-footerblocks-security.html" . }}
+                    {{ partial "subpage-footerblocks-sustainability.html" . }}
+                    {{ partial "subpage-footerblocks-history.html" . }}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
