@@ -150,8 +150,8 @@ $(document).ready(function () {
 		featureBubble = $('.featureBubble'),
 
 		// principles section
-		principlesSelect = $('.principles-select'),
-		principlesSlide = $('.principles-slide'),
+		principlesSelect = $('.history-select'),
+		principlesSlide = $('.history-slide'),
 
 		//language menu
 		langMenu = $('.lang-menu'),
