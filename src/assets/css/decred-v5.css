@@ -3690,6 +3690,18 @@ html[dir="rtl"] .lang-menu {
   padding: 20px 9px;
   background: #091440;
 }
+.landingbox-exchanges {
+  background: url('../images/landing_exchanges.png') center/cover no-repeat;
+}
+.landingbox-docs {
+  background: url('../images/landing_docs.png') center/cover no-repeat;
+}
+.landingbox-community {
+  background: url('../images/landing_community.png') center/cover no-repeat;
+}
+.landingbox-wallets {
+  background: url('../images/landing_downloads.png') center/cover no-repeat;
+}
 .landing-bg:nth-child(4n+0) {
   margin-right: -21px;
 }
