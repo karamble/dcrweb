@@ -4147,8 +4147,12 @@ p.text-block-11 {
   cursor: pointer;
 }
 
-.history-principles .active {
-  color: #e9f8fe;
+.history-principles hr {
+  border: none;
+  background-color: #091440;
+  border-color: #091440;
+  color: #091440;
+  height: 1px;
 }
 
 .history-principles:hover {
@@ -4167,12 +4171,19 @@ p.text-block-11 {
   color: #e9f8fe;
 }
 
+.history-slide-icon {
+  height: 130px;
+  align-self: center;
+}
 .history-slide {
   position: relative;
   overflow: hidden;
   height: 0px;
   max-height: 500px;
   opacity: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   -webkit-transform: translate(0px, 50px);
   -ms-transform: translate(0px, 50px);
   transform: translate(0px, 50px);
